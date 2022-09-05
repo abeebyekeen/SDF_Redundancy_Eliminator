@@ -16,13 +16,13 @@
 * [RDKit](https://www.rdkit.org/docs/Install.html)
 
 ### On Linux or OS X, there are multiple options:
-> Option 1 (recommneded): [Install RDKit with Conda](https://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda) if you have conda installed
+> Option 1: [Install RDKit with Conda](https://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda) if you have conda installed
 
 ```bash
 conda create -c conda-forge -n rdkit_env rdkit
 ```
 
-> Option 2 (recommended): [Install RDKit from repositories](https://www.rdkit.org/docs/Install.html#installation-from-repositories)
+> Option 2: [Install RDKit from repositories](https://www.rdkit.org/docs/Install.html#installation-from-repositories)
 
 [On Ubuntu, you may run](https://www.rdkit.org/docs/Install.html#ubuntu-12-04-and-later)
 
