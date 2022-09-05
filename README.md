@@ -7,13 +7,17 @@
  4. Move redundant ligands/structural isomers to a separate file to produce a library of unique compounds.
 
 
-## Prerequisite
+## Prerequisites/Dependencies
 
 * Python3
 * RDKit
 
 ## Installation of dependencies
-> 1. 
+* Conda
+> Option 1: [Install RDKit with Conda](https://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda)
+```bash
+conda create -c conda-forge -n rdkit_env rdkit
+```
 
 
 ## How to Use SDF_Redundancy_Eliminator
