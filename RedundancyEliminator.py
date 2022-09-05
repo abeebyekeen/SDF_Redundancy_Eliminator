@@ -3,14 +3,29 @@
 2. Detect redundant ligands/structural isomers in the library, 
 3. Generate unique and redundant name lists and, optionally, 
 4. Move redundant ligands/structural isomers to a separate file producing a library of unique compounds.
-Author: Abeeb A. YEKEEN
-Contact: yekeenaa@mail.ustc.edu.cn, abeeb.yekeen@hotmail.com
-Date: 2021.11.03
+
+	Author: Abeeb A. YEKEEN
+
+	Contact: yekeenaa@mail.ustc.edu.cn, abeeb.yekeen@hotmail.com
+
+	Date: 2021.11.03
 '''
 
+from __future__ import print_function
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import unicode_literals
+
+from builtins import round
+from builtins import input
+from builtins import open
+from builtins import str
+#from future import standard_library
+#standard_library.install_aliases()
 import os
 from rdkit import Chem
 import time
+
 
 def track_status():
 	print(status)
