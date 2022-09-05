@@ -10,6 +10,10 @@
 ## Prerequisite
 
 * Python3
+* RDKit
+
+## Installation of dependencies
+> 1. 
 
 
 ## How to Use SDF_Redundancy_Eliminator
