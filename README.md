@@ -6,14 +6,17 @@
  3. Generate unique and redundant name lists and, optionally,  
  4. Move redundant ligands/structural isomers to a separate file to produce a library of unique compounds.
 
+
 ## Prerequisite
 
 * Python3
+
 
 ## How to Use SDF_Redundancy_Eliminator
 1. Create a folder and copy in your *.SD/.SDF* compound library
 2. Copy *SDF_Redundancy_Eliminator.py* into the same directory
 3. Run the code and it will walk you through the steps.
+
 
 ## Features
 * Generates *canonical SMILES* for the compounds in the library if they are not annotated with *SMILES strings*
