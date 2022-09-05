@@ -1,8 +1,6 @@
-# SDF_Redundancy_Eliminator [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.7049712.svg?style=svg)](https://zenodo.org/record/7049712#.YxWvrHZBzi0)
-
+# SDF_Redundancy_Eliminator
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/abeebyekeen/SDF_Redundancy_Eliminator?style=flat-square)](https://github.com/abeebyekeen/SDF_Redundancy_Eliminator/releases)
-
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.7049712.svg?style=svg)](https://zenodo.org/record/7049712#.YxWvrHZBzi0)
 
 **SDF_Redundancy_Eliminator** is a **Python3** code to: 
