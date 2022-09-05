@@ -24,7 +24,7 @@ conda create -c conda-forge -n rdkit_env rdkit
 
 > Option 2 (recommended): [Install RDKit from repositories](https://www.rdkit.org/docs/Install.html#installation-from-repositories)
 
-[On Ubuntu, you may run](https://www.rdkit.org/docs/Install.html#ubuntu-12-04-and-later)
+  [On Ubuntu, you may run](https://www.rdkit.org/docs/Install.html#ubuntu-12-04-and-later)
 
  ```bash
 sudo apt-get install python3-rdkit librdkit1 rdkit-data
