@@ -15,12 +15,12 @@
 ## Installation of dependencies
 * [RDKit](https://www.rdkit.org/docs/Install.html)
 
-###  On Linux or OS X, there are multiple options:
+### On Linux or OS X, there are multiple options:
 > Option 1 (recommneded): [Install RDKit with Conda](https://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda) if you have conda installed
 
-  ```bash
-  conda create -c conda-forge -n rdkit_env rdkit
-  ```
+```bash
+conda create -c conda-forge -n rdkit_env rdkit
+```
 
 > Option 2 (recommended): [Install RDKit from repositories](https://www.rdkit.org/docs/Install.html#installation-from-repositories)
 
