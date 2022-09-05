@@ -13,12 +13,27 @@
 * RDKit
 
 ## Installation of dependencies
-* Conda
-> Option 1: [Install RDKit with Conda](https://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda)
-```bash
-conda create -c conda-forge -n rdkit_env rdkit
+* [RDKit](https://www.rdkit.org/docs/Install.html)
+
+### On Linux or OS X, there are multiple options:
+> Option 1 (recommneded): [Install RDKit with Conda](https://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda) if you have conda installed
+
+ ```bash
+ conda create -c conda-forge -n rdkit_env rdkit
+ ```
+
+> Option 2 (recommended): [Install RDKit from repositories](https://www.rdkit.org/docs/Install.html#installation-from-repositories)
+
+[On Ubuntu, you may run](https://www.rdkit.org/docs/Install.html#ubuntu-12-04-and-later)
+
+ ```bash
+sudo apt-get install python3-rdkit librdkit1 rdkit-data
 ```
 
+> Option 3: [Build from Source](https://www.rdkit.org/docs/Install.html#building-from-source)
+
+### On Windows
+You may follow the instructions [here](https://www.rdkit.org/docs/Install.html#windows), or [here](https://www.rdkit.org/docs/Install.html#cross-platform-under-anaconda-python-fastest-install)
 
 ## How to Use SDF_Redundancy_Eliminator
 1. Create a folder and copy in your *.SD/.SDF* compound library
@@ -28,5 +43,5 @@ conda create -c conda-forge -n rdkit_env rdkit
 
 ## Features
 * Generates *canonical SMILES* for the compounds in the library if they are not annotated with *SMILES strings*
-* Produces another copy of the library with *SMILES* string annotation
+* Produces another copy of the library with *SMILES string* annotation
 * Interactively walks the user through the steps
