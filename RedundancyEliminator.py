@@ -1,8 +1,9 @@
-'''A python script to:
-1. Generate canonical SMILES for each of the compounds in your SD/SDF compound library,
-2. Detect redundant ligands/structural isomers in the library, 
-3. Generate unique and redundant name lists and, optionally, 
-4. Move redundant ligands/structural isomers to a separate file producing a library of unique compounds.
+'''
+A python script to:
+ 1. Generate canonical SMILES for each of the compounds in your SD/SDF compound library,
+ 2. Detect redundant ligands/structural isomers in the library, 
+ 3. Generate unique and redundant name lists and, optionally, 
+ 4. Move redundant ligands/structural isomers to a separate file producing a library of unique compounds.
 
 	Author: Abeeb A. YEKEEN
 

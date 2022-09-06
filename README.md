@@ -41,7 +41,10 @@ You may follow the instructions [here](https://www.rdkit.org/docs/Install.html#w
 ## How to Use SDF_Redundancy_Eliminator
 1. Create a folder and copy in your *.SD/.SDF* compound library
 2. Copy *SDF_Redundancy_Eliminator.py* into the same directory
-3. Run the code and it will walk you through the steps.
+3. Run the code and it will walk you through the steps:
+```bash
+python3 SDF_Redundancy_Eliminator.py
+```
 
 
 ## Features
