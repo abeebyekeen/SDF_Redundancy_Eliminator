@@ -21,8 +21,17 @@
 ### On Linux or OS X, there are multiple options:
 > Option 1: [Install RDKit with Conda](https://www.rdkit.org/docs/Install.html#how-to-install-rdkit-with-conda) if you have conda installed
 
+Create a python3 environment (tested with python versions 3.8 and 3.7)
 ```bash
-conda create -c conda-forge -n rdkit_env rdkit
+conda create -n py38_rdkit python=3.8
+```
+Install RDkit with pip using
+```bash
+pip install rdkit
+```
+or
+```bash
+pip install rdkit-pypi
 ```
 
 > Option 2: [Install RDKit from repositories](https://www.rdkit.org/docs/Install.html#installation-from-repositories)
@@ -31,6 +40,10 @@ conda create -c conda-forge -n rdkit_env rdkit
 
 ```bash
 sudo apt-get install python3-rdkit librdkit1 rdkit-data
+```
+or run
+```bash
+pip3 install rdkit
 ```
 
 > Option 3: [Build from Source](https://www.rdkit.org/docs/Install.html#building-from-source)
@@ -45,7 +58,6 @@ You may follow the instructions [here](https://www.rdkit.org/docs/Install.html#w
 ```bash
 python3 SDF_Redundancy_Eliminator.py
 ```
-
 
 ## Features
 * Generates *canonical SMILES* for the compounds in the library if they are not annotated with *SMILES strings*
