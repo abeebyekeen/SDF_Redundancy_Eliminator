@@ -64,3 +64,8 @@ python3 SDF_Redundancy_Eliminator.py
 * Generates *canonical SMILES* for the compounds in the library if they are not annotated with *SMILES strings*
 * Produces another copy of the library with *SMILES string* annotation
 * Interactively walks the user through the steps
+
+## Citation
+If you use this code in your work, kindly cite it as:
+***Yekeen, A. A. (2022). SDF_Redundancy_Eliminator: A python code to remove redundant ligands in a .SD/.SDF compound library. DOI: doi.org/10.5281/zenodo.7049711
+<em>https://github.com/abeebyekeen/SDF_Redundancy_Eliminator</em>***
