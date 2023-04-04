@@ -33,7 +33,7 @@ def track_status():
 	log_file.write(status)
 
 def citation():
-	status='\nIf you use this program in your work, kindly cite it as:\n\n    "Yekeen, A. A. (2022). SDF_Redundancy_Eliminator: A python code to remove redundant ligands in a .SD/.SDF compound\n    library. https://github.com/abeebyekeen/SDF_Redundancy_Eliminator, DOI: https://doi.org/10.5281/zenodo.7049711"\n'
+	status='\nIf you use this program in your work, kindly cite it as:\n\n    Yekeen, A. A. (2022). SDF_Redundancy_Eliminator: A python code to remove redundant ligands in a .SD/.SDF compound\n    library. https://github.com/abeebyekeen/SDF_Redundancy_Eliminator, DOI: https://doi.org/10.5281/zenodo.7049711\n'
 	print(status)
 	log_file.write(status)
 
