@@ -68,4 +68,4 @@ python3 SDF_Redundancy_Eliminator.py
 ## Citation
 If you use this code in your work, kindly cite it as:
 
-**Yekeen, A. A. (2022). SDF_Redundancy_Eliminator: A python code to remove redundant ligands in a .SD/.SDF compound library. <em>https://github.com/abeebyekeen/SDF_Redundancy_Eliminator</em>, DOI: https://doi.org/10.5281/zenodo.7049711**
+**Yekeen, A. A. (2022). SDF_Redundancy_Eliminator: A python code to remove redundant ligands in a .SD/.SDF compound library. <em>https://github.com/abeebyekeen/SDF_Redundancy_Eliminator</em>, DOI: <em>https://doi.org/10.5281/zenodo.7049711</em>**
